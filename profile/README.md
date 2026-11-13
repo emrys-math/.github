@@ -17,10 +17,13 @@ checks that say pass or fail, and instructions an agent can follow from a fresh 
 every change gets a thorough human review, backed by decades of experience in applied mathematics
 and software engineering.
 
-## EmrysFilter, coming very soon
+## EmrysFilter
 
 A header-only C++23 library for state estimation on Eigen 5: one design that runs from the Kalman
-filter to the Rao-Blackwellized particle filter. Its first release will include:
+filter to the Rao-Blackwellized particle filter. Version 0.1.0 is out:
+[the repository](https://github.com/emrys-math/emrys-filter),
+[the reference](https://emrys-math.github.io/emrys-filter/), and
+[the DOI](https://doi.org/10.5281/zenodo.24195424) to cite it by. It includes:
 
 - **Filters:** the Kalman filter in covariance, square-root, information, and square-root
   information form; Gaussian mixture, interacting multiple model, and autonomous multiple model
